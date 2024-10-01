@@ -1,4 +1,4 @@
-pyaudio
+
 RealTimeSTT
 google-generativeai
 Pillow
