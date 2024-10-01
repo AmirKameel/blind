@@ -91,13 +91,13 @@ import toml
 
 def configure_gemini():
     # Load the secrets from the secrets.toml file
-    secrets = toml.load("secrets.toml")
+    #secrets = toml.load("secrets.toml")
 
     # Configure Gemini model
     st.session_state.model = genai.GenerativeModel("gemini-pro")
-
+    
     # Get the API key from secrets.toml and configure it to Gemini API
-    google_api_key = secrets.get("google_api_key")
+    google_api_key = st.secrets["google_api_key"]
 
     if google_api_key:
         genai.configure(api_key=google_api_key)
