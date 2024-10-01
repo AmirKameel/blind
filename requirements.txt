@@ -1,7 +1,7 @@
-
-RealTimeSTT
-google-generativeai
-Pillow
-streamlit
-toml
-
+google-generativeai==0.2.0  # For interacting with Gemini API
+Pillow==10.0.0  # For image processing
+streamlit==1.25.0  # For building the web app
+toml==0.10.2  # For loading API keys from secrets.toml
+RealtimeSTT==0.1.5  # Real-time speech-to-text conversion
+sounddevice==0.4.6  # Alternative to PyAudio for handling audio
+webrtcvad==2.0.10  # For voice activity detection
