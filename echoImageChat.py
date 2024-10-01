@@ -113,7 +113,7 @@ def img_exists(img):
     there is an img inserted or not.
     '''
     if img:
-        st.session_state.model = genai.GenerativeModel("gemini-pro-vision")
+        st.session_state.model = genai.GenerativeModel("gemini-1.5-flash")
         print(f"-- Gemini-Pro-Vision Enabled")
     elif not img:
         st.session_state.model = genai.GenerativeModel("gemini-pro")
