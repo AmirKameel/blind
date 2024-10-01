@@ -1,5 +1,5 @@
 # loads genai API Key from .env file
-from dotenv import load_dotenv, find_dotenv
+
 import google.generativeai as genai  # Gemini API key
 
 import io  # file conversions
