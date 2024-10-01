@@ -3,5 +3,4 @@ Pillow
 streamlit
 toml
 RealtimeSTT
-sounddevice
-webrtcvad
+pyaudio
